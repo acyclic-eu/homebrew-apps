@@ -1,19 +1,19 @@
 class EijiiTui < Formula
   desc "eijii TUI and daemon - AI agent session manager"
   homepage "https://acyclic.eu/eijii"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/acyclic-eu/homebrew-eijii/releases/download/v#{version}/eijii-tui-#{version}-macos-arm64"
-      sha256 "47aae65fef283e27fa71e5f676f22530def4f44acef30aef3bd612c6c42c999f"
+      sha256 "ad80ee827f47c0678537fd8eee3f52164e2f4d7d8e52107ac162e4bf36fb2dc5"
     end
   end
 
   resource "daemon" do
-    url "https://github.com/acyclic-eu/homebrew-eijii/releases/download/v0.0.3/eijii-daemon-0.0.3.jar"
-    sha256 "eb2cafc95449378bd71f54dcaf2c04d9bd9f81c1d72d5045b335ac82e7519d37"
+    url "https://github.com/acyclic-eu/homebrew-eijii/releases/download/v0.0.4/eijii-daemon-0.0.4.jar"
+    sha256 "5ed08797ba2754cafb8f7529d0994e8184e74ed1e1e87ea58a2032c40ab6a472"
   end
 
   depends_on "openjdk@21"
