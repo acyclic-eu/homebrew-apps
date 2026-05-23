@@ -1,6 +1,6 @@
 cask "eijii" do
-  version "0.0.4"
-  sha256 "f3274bc6215b403164907a975de1b0a295fb4fe2725bbc969a80db6ced08d7ab"
+  version "0.0.5"
+  sha256 "1ee96dbe2c3ebba4d8fa5c9868e3ede8509b1d6dcdc8f4921170c7150c2ebd64"
 
   url "https://github.com/acyclic-eu/homebrew-apps/releases/download/v#{version}/eijii-#{version}-mac.dmg"
 
