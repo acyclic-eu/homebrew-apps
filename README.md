@@ -1,21 +1,23 @@
-# homebrew-eijii
+# homebrew-apps
 
-Homebrew tap for [eijii](https://acyclic.eu/eijii) - AI agent session manager.
+Homebrew tap for Acyclic apps.
 
 ## Install
 
 ```bash
-brew tap acyclic-eu/eijii
+brew tap acyclic-eu/apps
 
-# GUI app (macOS)
+# eijii - AI agent session manager
 brew install --cask eijii          # beta channel
 brew install --cask eijii-alpha    # alpha channel
-
-# TUI + daemon (CLI)
-brew install acyclic-eu/eijii/eijii-tui
+brew install acyclic-eu/apps/eijii-tui  # TUI + daemon
 ```
 
-## Channels
+## Apps
+
+### eijii
+
+AI agent session manager - https://acyclic.eu/eijii
 
 | Cask/Formula | Channel | Notes |
 |---|---|---|
